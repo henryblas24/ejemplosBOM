@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>BOM- Browser Object Model</h1>
+     <nav>
+        <ul>
+            <li> <a href="">Window</a></li>
+            <p>Ejemplos :
+               <br>
+               <br> window.prompt('Hola') ;
+               <br> window.alert('Este es una alerta') ;
+               <br> window.confirm('Confirmar') ;
+               <br> window.open('https://www.google.com') ;
+            </p>
+            <li> <a href="">Document</a></li>
+            <p>Ejemplos :
+                <br>
+                <br> const link = document.querySelector('a');
+                <br> console.log(link);
+                <br> 
+                <br> const link2 = document.querySelectorAll('nav ul li');
+                <br> console.log(link2);
+            </p>
+
+            <li> <a href="">History</a></li>
+
+            <p>Ejemplos :
+                <br>
+                <br> window.history.go(1);
+                <br> window.history.back();
+                <br> window.history.forward();
+                <br>
+                <br> function openPrev() {
+                <br>   window.history.forward();
+                <br>  }
+            </p>
+
+            <li> <a href="">Location</a></li>
+
+            <p>Ejemplos :
+                <br>
+                <br> const value1 = document.location.href;
+                <br> console.log(value1);
+                <br>
+                <br> const value2 = document.location.protocol;
+                <br> console.log(value2);
+                <br>
+                <br> const value3 = document.location.port;
+                <br> console.log(value3);
+                <br> 
+                <br> console.log(document.location.origin);
+                <br> console.log(document.location.pathName);
+            </p>
+
+            <li> <a href="">Navigator</a></li>
+
+            <p>Ejemplos :
+                <br> 
+                <br> console.log(window.navigator);
+                <br>
+                <br> console.log(window.navigator.appName);
+                <br> 
+                <br> console.log(window.navigator.version);
+                <br> 
+                <br> console.log(window.navigator.online);
+                <br>
+                <br> console.log(window.navigator.language);
+                <br>
+            </p>
+
+            <li> <a href="">Screen</a></li>
+
+            <p>Ejemplos :
+                <br> 
+                <br> const size = window.screen
+                <br>
+                <br> console.log(size.widht);
+                <br> 
+                <br> console.log(size.height);
+                <br>
+            </p>
+
+        </ul>
+     </nav>
+    <script src="app.js"></script>    
+</body>
+</html>
